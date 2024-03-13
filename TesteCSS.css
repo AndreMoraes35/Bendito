@@ -25,8 +25,8 @@ h1   {
 
 
 img{
-   width: 50px;
-   height: 50px;
+   width: 30px;
+   height: 30px;
    transition: width 1s, height 1s; /* propriedade transition informando que será alterada a largura e altura  com tempos diferentes*/   
  }
 /* elemento img com o estado hover - mouse sobre - que ativará a transição até 600px  de largura e 300px de altura*/ 
