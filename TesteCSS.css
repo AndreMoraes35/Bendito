@@ -17,15 +17,15 @@ h1   {
       }
 
    
-#bolo {
+bolo {
        width: 400px; height: 400px; position: center ; top: 400px;  padding: 20px; 
 
 }
-#icon { border-radius: 50%; padding: 5px;}
+icon { border-radius: 50%; padding: 5px;}
 
 
 img {
-   width: 200px;
+   width: 400px;
    height: 200px;
    transition: width 1s, height 1s; /* propriedade transition informando que será alterada a largura e altura  com tempos diferentes*/   
  }
@@ -33,5 +33,5 @@ img {
 img :hover
    {  
    width: 600px;
-   height: 330px;
+   height: 300px;
    }
