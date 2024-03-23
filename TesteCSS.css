@@ -1,45 +1,53 @@
 body { 
-       background-image: url(bolo.jpg); background-position: center top;background-repeat: no-repeat; background-size: 600px 500px ;background-color: rgb(202, 126, 90)
-      
-    }
+    background-image: url(bolo.jpg); background-position: center top;background-repeat: no-repeat; background-size: 900px 600px ;background-color: rgb(202, 126, 90); 
+ 
+     
+ }
 
-  #social  { 
-            margin: 0px; padding: 0px; list-style: none; position: relative ; top: 10px ; left: 600px;
-           }
+.social  { 
+   display: flex;
+   margin-top: 50px;  
+       
+}
 
- #social ul  {
-            display: inline; 
-          }
+        
+     
 
 
 h1   {
-      font-family: sans-serif; font-size: 90px; font-style: oblique; color: rgb(242, 246, 248) ;position: relative; left: 300px; top: -80px;
-      }
+   font-family: sans-serif; font-size: 90px; font-style: oblique; color: rgb(242, 246, 248) ;position: relative; left: 300px; top: -80px;
+   }
 
 .center
-    {
-        display: flex;
-             
-           }
-.column {
-  flex: 33.33%;
-  padding: 5px;
-  justify-content: space-arround;
+ {
+    display: flex;
+    margin-top: 390px;      
+    justify-content: space-between;
+   
+        }
+
+.center1
+{
+    display: flex; 
+    margin-top: 25px;   
+    justify-content: space-between;
+                     
+               }        
+
+
+#icon img {  border-radius: 50px; padding: 10px;}
+
+.icon img {
+width: 70px;
+height: 70px;
+width: 50px;
+height: 50px;
+transition: width 1s, height 1s; /* propriedade transition informando que será alterada a largura e altura  com tempos diferentes*/   
 }
 
-
-#icon { border-radius: 50%; padding: 5px;}
-
-#icon {
-   width: 70px;
-   height: 70px;
-   width: 50px;
-   height: 50px;
-   transition: width 1s, height 1s; /* propriedade transition informando que será alterada a largura e altura  com tempos diferentes*/   
- }
 /* elemento img com o estado hover - mouse sobre - que ativará a transição até 600px  de largura e 300px de altura*/ 
-#icon:hover
-   {  
-   width: 150px;
-   height: 150px;
-   }
+#icon img:hover
+{  
+width: 100px;
+height: 100px;
+}
