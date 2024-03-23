@@ -48,6 +48,6 @@ transition: width 2s, height 2s; /* propriedade transition informando que será 
 /* elemento img com o estado hover - mouse sobre - que ativará a transição até 600px  de largura e 300px de altura*/ 
 #icon img:hover
 {  
-width: 120px;
-height: 120px;
+width: 50px;
+height: 50px;
 }
