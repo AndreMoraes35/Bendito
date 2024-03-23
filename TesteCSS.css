@@ -19,7 +19,7 @@ h1   {
 .center
     {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-arround;
         margin-top: 200px;
        
     }
