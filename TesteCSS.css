@@ -20,9 +20,14 @@ h1   {
     {
         display: flex;
         justify-content: space-arround;
-        margin-top: 100px;
        
-    }
+           }
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+       margin-top: 200px
+}
 
 
 #icon { border-radius: 50%; padding: 5px;}
